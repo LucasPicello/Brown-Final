@@ -1,0 +1,33 @@
+Introduction
+
+In this assignment our main focus was trying to implement minimax and alpha-beta algorithms on a tic-tac-toe game. 
+By converting pseudocode into python itself, 
+we were able to create various scenarios where an artificial intelligence predicted which was the best choice in order to maximize (or minimize) its rewards. 
+As a consequence, we were capable of establishing a comparison between different methods and situations.
+
+Methods
+
+Initially, our plan was to keep the project simple and clear by just implementing a minimax algorithm. 
+Hence, as the tic-tac-toe is not a large game, where there are multiple solutions and paths to the terminal states, 
+minimax would work properly. While in the process of converting the pseudocode into python, 
+we realized there were some changes needed to the structure shown, which meant, for instance, 
+moving the best_move and best_value analysis from the secondary functions (max_value and min_value) to the main functions minimax(). 
+After finishing minimax, we noticed that we just had to adapt some structures in order to use alpha-beta and it was worth it to try implementing the algorithm.
+To evaluate our results, we began by playing against both algorithms. Then, we proceeded to play minimax against alpha-beta.
+
+Results
+
+Our system worked after some few changes to the code. 
+We initially thought it was not going to perform as well as we expected, 
+it was really very fascinating to see different system architectures play against each other. 
+We noticed that alpha-beta took much longer to load than minimax, 
+but when ready it was able to instantly win against minimax. When we played against the system, 
+we won every single time even when the player one was the artificial intelligence, an interesting thing to point out.
+
+Discussion
+
+Working as a pair turned out to be very efficient, 
+even though we had to share modifications on the original code. 
+If we could do it next time, we would probably rely on other sorts of information other than the pseudocode provided.
+We had some significant problems trying to understand the pseudocode and them implementing it. 
+
